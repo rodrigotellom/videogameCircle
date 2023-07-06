@@ -179,6 +179,7 @@
 
         // Increases the size of circleInside
         circleInside.radius += growthRate;
+        growthRate += 0.1;
 
         // THE WHOLE GAME: hecks if circleInside is outside of circleOutside
         if (circleInside.radius >= circleOutside.radius) {
